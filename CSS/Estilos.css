@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "LilitaOne-Regular.ttf";
+  src: url(../assets/font/LilitaOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-SemiBold.ttf";
+  src: url(../assets/fonts/Poppins-SemiBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins-SemiBold.ttf";
+}
+body {
+  font-family: "LilitaOne-Regular.ttf";
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 935px;
+}
+
+.navegador {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.enlaces {
+  margin: 0 10px;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90rem;
+  padding: 5rem;
+}
+a {
+color: #ffffff;
+}
+
+h1 {
+color:#c92d45
+}
+.logo {
+  max-width: 100px;
+}
+
+.centro {
+  display: flex;
+  justify-content: left;
+  align-items: right;
+  text-align: center;
+  padding: 5rem;
+  background-repeat: no-repeat;
+}
+
+.fondo_pizza {
+  max-width: 100%;
+}
+
+#datos {
+  text-align: center;
+  padding: 20px;
+}
+
+.button {
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f8be26;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  color: #c92d45;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
